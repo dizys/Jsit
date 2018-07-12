@@ -1,0 +1,93 @@
+ package club.dizy.jsit;
+ 
+ public abstract interface JsitParserTreeConstants
+ {
+   public static final int JJTCOMPILATIONUNIT = 0;
+   public static final int JJTNAMESPACEDECLARATION = 1;
+   public static final int JJTUSEDECLARATION = 2;
+   public static final int JJTTYPEDECLARATION = 3;
+   public static final int JJTCLASSDECLARATION = 4;
+   public static final int JJTUNMODIFIEDCLASSDECLARATION = 5;
+   public static final int JJTCLASSBODY = 6;
+   public static final int JJTNESTEDCLASSDECLARATION = 7;
+   public static final int JJTCLASSBODYDECLARATION = 8;
+   public static final int JJTMETHODDECLARATIONLOOKAHEAD = 9;
+   public static final int JJTINTERFACEDECLARATION = 10;
+   public static final int JJTNESTEDINTERFACEDECLARATION = 11;
+   public static final int JJTUNMODIFIEDINTERFACEDECLARATION = 12;
+   public static final int JJTINTERFACEMEMBERDECLARATION = 13;
+   public static final int JJTFIELDDECLARATION = 14;
+   public static final int JJTVARIABLEDECLARATOR = 15;
+   public static final int JJTVARIABLEDECLARATORID = 16;
+   public static final int JJTVARIABLEINITIALIZER = 17;
+   public static final int JJTARRAYINITIALIZER = 18;
+   public static final int JJTMETHODDECLARATION = 19;
+   public static final int JJTMETHODDECLARATOR = 20;
+   public static final int JJTFORMALPARAMETERS = 21;
+   public static final int JJTFORMALPARAMETER = 22;
+   public static final int JJTCONSTRUCTORDECLARATION = 23;
+   public static final int JJTEXPLICITCONSTRUCTORINVOCATION = 24;
+   public static final int JJTINITIALIZER = 25;
+   public static final int JJTTYPE = 26;
+   public static final int JJTPRIMITIVETYPE = 27;
+   public static final int JJTRESULTTYPE = 28;
+   public static final int JJTNAME = 29;
+   public static final int JJTNAMELIST = 30;
+   public static final int JJTEXPRESSION = 31;
+   public static final int JJTASSIGNMENTOPERATOR = 32;
+   public static final int JJTCONDITIONALEXPRESSION = 33;
+   public static final int JJTCONDITIONALOREXPRESSION = 34;
+   public static final int JJTCONDITIONALANDEXPRESSION = 35;
+   public static final int JJTINCLUSIVEOREXPRESSION = 36;
+   public static final int JJTEXCLUSIVEOREXPRESSION = 37;
+   public static final int JJTANDEXPRESSION = 38;
+   public static final int JJTEQUALITYEXPRESSION = 39;
+   public static final int JJTINSTANCEOFEXPRESSION = 40;
+   public static final int JJTRELATIONALEXPRESSION = 41;
+   public static final int JJTSHIFTEXPRESSION = 42;
+   public static final int JJTADDITIVEEXPRESSION = 43;
+   public static final int JJTMULTIPLICATIVEEXPRESSION = 44;
+   public static final int JJTUNARYEXPRESSION = 45;
+   public static final int JJTPREINCREMENTEXPRESSION = 46;
+   public static final int JJTPREDECREMENTEXPRESSION = 47;
+   public static final int JJTUNARYEXPRESSIONNOTPLUSMINUS = 48;
+   public static final int JJTCASTLOOKAHEAD = 49;
+   public static final int JJTPOSTFIXEXPRESSION = 50;
+   public static final int JJTCASTEXPRESSION = 51;
+   public static final int JJTPRIMARYEXPRESSION = 52;
+   public static final int JJTPRIMARYPREFIX = 53;
+   public static final int JJTPRIMARYSUFFIX = 54;
+   public static final int JJTLITERAL = 55;
+   public static final int JJTBOOLEANLITERAL = 56;
+   public static final int JJTNULLLITERAL = 57;
+   public static final int JJTARGUMENTS = 58;
+   public static final int JJTARGUMENTLIST = 59;
+   public static final int JJTALLOCATIONEXPRESSION = 60;
+   public static final int JJTARRAYDIMSANDINITS = 61;
+   public static final int JJTSTATEMENT = 62;
+   public static final int JJTLABELEDSTATEMENT = 63;
+   public static final int JJTBLOCK = 64;
+   public static final int JJTBLOCKSTATEMENT = 65;
+   public static final int JJTLOCALVARIABLEDECLARATION = 66;
+   public static final int JJTEMPTYSTATEMENT = 67;
+   public static final int JJTSTATEMENTEXPRESSION = 68;
+   public static final int JJTSWITCHSTATEMENT = 69;
+   public static final int JJTSWITCHLABEL = 70;
+   public static final int JJTIFSTATEMENT = 71;
+   public static final int JJTWHILESTATEMENT = 72;
+   public static final int JJTDOSTATEMENT = 73;
+   public static final int JJTFORSTATEMENT = 74;
+   public static final int JJTFORINIT = 75;
+   public static final int JJTSTATEMENTEXPRESSIONLIST = 76;
+   public static final int JJTFORUPDATE = 77;
+   public static final int JJTBREAKSTATEMENT = 78;
+   public static final int JJTCONTINUESTATEMENT = 79;
+   public static final int JJTRETURNSTATEMENT = 80;
+   public static final int JJTTHROWSTATEMENT = 81;
+   public static final int JJTTRYSTATEMENT = 82;
+   public static final String[] jjtNodeName = { "CompilationUnit", "NamespaceDeclaration", "UseDeclaration", "TypeDeclaration", "ClassDeclaration", "UnmodifiedClassDeclaration", "ClassBody", "NestedClassDeclaration", "ClassBodyDeclaration", "MethodDeclarationLookahead", "InterfaceDeclaration", "NestedInterfaceDeclaration", "UnmodifiedInterfaceDeclaration", "InterfaceMemberDeclaration", "FieldDeclaration", "VariableDeclarator", "VariableDeclaratorId", "VariableInitializer", "ArrayInitializer", "MethodDeclaration", "MethodDeclarator", "FormalParameters", "FormalParameter", "ConstructorDeclaration", "ExplicitConstructorInvocation", "Initializer", "Type", "PrimitiveType", "ResultType", "Name", "NameList", "Expression", "AssignmentOperator", "ConditionalExpression", "ConditionalOrExpression", "ConditionalAndExpression", "InclusiveOrExpression", "ExclusiveOrExpression", "AndExpression", "EqualityExpression", "InstanceOfExpression", "RelationalExpression", "ShiftExpression", "AdditiveExpression", "MultiplicativeExpression", "UnaryExpression", "PreIncrementExpression", "PreDecrementExpression", "UnaryExpressionNotPlusMinus", "CastLookahead", "PostfixExpression", "CastExpression", "PrimaryExpression", "PrimaryPrefix", "PrimarySuffix", "Literal", "BooleanLiteral", "NullLiteral", "Arguments", "ArgumentList", "AllocationExpression", "ArrayDimsAndInits", "Statement", "LabeledStatement", "Block", "BlockStatement", "LocalVariableDeclaration", "EmptyStatement", "StatementExpression", "SwitchStatement", "SwitchLabel", "IfStatement", "WhileStatement", "DoStatement", "ForStatement", "ForInit", "StatementExpressionList", "ForUpdate", "BreakStatement", "ContinueStatement", "ReturnStatement", "ThrowStatement", "TryStatement" };
+ }
+
+
+
+
